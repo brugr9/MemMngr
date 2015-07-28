@@ -173,10 +173,10 @@ public:
 
 	/**
 	 * Adds an element to the end of the list.
-	 * Returns <code>true</code> if the element was added, <code>false</code> else.
+	 * Returns <code>true</code> if the element was added, <code>false</code> otherwise.
 	 *
 	 * @param element the element to add
-	 * @return <code>true</code> if the element was added, <code>false</code> else
+	 * @return <code>true</code> if the element was added, <code>false</code> otherwise
 	 */
 	bool add(const T& element) throw (bad_alloc) {
 
@@ -261,12 +261,12 @@ public:
 	}
 
 	/**
-	 * Returns <code>true</code> if the element got removed, <code>false</code> else.
+	 * Returns <code>true</code> if the element got removed, <code>false</code> otherwise.
 	 * If the element is not found, <code>false</code> will be returned.
 	 * This method does **not** free the memory used by the element.
 	 *
 	 * @param element The element to remove
-	 * @return <code>true</code> if the element got removed, <code>false</code> else
+	 * @return <code>true</code> if the element got removed, <code>false</code> otherwise
 	 */
 	bool remove(const T& element) {
 
@@ -407,7 +407,7 @@ public:
 	 * Returns an element (memory entry pointer) found by a memory pointer as key.
 	 *
 	 * @param memPtr The pointer to the memory.
-	 * @return The pointer to the <code>MemEntry_t</code> if found, NULL else.
+	 * @return The pointer to the <code>MemEntry_t</code> if found, NULL otherwise.
 	 */
 	const MemEntry_t* getEntry(const void* memPtr) const {
 

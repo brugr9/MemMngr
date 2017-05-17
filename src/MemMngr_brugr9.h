@@ -1,7 +1,7 @@
 /*
  * MemMngr_brugr9.h
  *
- * A (not thread-safe) memory manager developed by using GNU C++ compiler g++.
+ * A (not thread-safe) memory manager. We used the GNU C++ compiler g++.
  *
  * File name and line number handling as found in:
  * Macro to replace C++ operator new

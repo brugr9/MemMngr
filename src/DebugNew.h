@@ -1,5 +1,5 @@
 /*
- * DebugNew_brugr9.h
+ * DebugNew.h
  *
  * A (not thread-safe) memory manager developed by using GNU C++ compiler g++.
  *
@@ -13,8 +13,8 @@
 
 #if defined(DEBUG) || defined(_DEBUG) || defined(__debug)
 
-#ifndef DEBUGNEW_BRUGR9_H_
-#define DEBUGNEW_BRUGR9_H_
+#ifndef DEBUGNEW_H_
+#define DEBUGNEW_H_
 
 /**
  * A global field for a file name.
@@ -54,7 +54,7 @@ extern size_t __line__;
  */
 //#define delete (__file__=__FILE__,__line__=__LINE__,0) ? NULL : delete // TODO define delete (compiler says ... error: third operand to the conditional operator is of type ‘void’, but the second operand is neither a throw-expression nor of type ‘void’)
 
-#endif /* DEBUGNEW_BRUGR9_H_ */
+#endif /* DEBUGNEW_H_ */
 
 #endif /* DEBUG */
 

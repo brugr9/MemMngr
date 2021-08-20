@@ -1,5 +1,5 @@
 /*
- * MemMngrUsage.cpp
+ * MemMngr: Demo.cpp
  *
  *  Created on: 12.05.2015
  *      Author: Roland Bruggmann
@@ -13,7 +13,7 @@ using namespace std;
 
 #define DEBUG
 #ifdef DEBUG
-#include "MemMngr_brugr9.h"
+#include "MemMngr.h"
 #endif
 
 /**

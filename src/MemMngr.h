@@ -1,5 +1,5 @@
 /*
- * MemMngr_brugr9.h
+ * MemMngr.h
  *
  * A (not thread-safe) memory manager. We used the GNU C++ compiler g++.
  *
@@ -20,8 +20,8 @@ using namespace std;
 #include <string>
 #include <assert.h>
 
-#ifndef MEMMNGR_BRUGR9_H_
-#define MEMMNGR_BRUGR9_H_
+#ifndef MEMMNGR_H_
+#define MEMMNGR_H_
 
 /**
  * Forward declaration: List template class.
@@ -653,6 +653,6 @@ private:
 }
 ;
 
-#endif /* MEMMNGR_BRUGR9_H_ */
+#endif /* MEMMNGR_H_ */
 
 #endif /* DEBUG */

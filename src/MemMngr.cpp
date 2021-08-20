@@ -1,5 +1,5 @@
 /*
- * MemMngr_brugr9.h
+ * MemMngr.h
  *
  * A (not thread-safe) memory manager. We used the GNU C++ compiler g++.
  *
@@ -11,7 +11,7 @@
  *      Author: Roland Bruggmann (brugr9)
  */
 
-#include "MemMngr_brugr9.h"
+#include "MemMngr.h"
 
 #if defined(DEBUG) || defined(_DEBUG) || defined(__debug)
 
